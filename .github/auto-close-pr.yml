@@ -1,0 +1,22 @@
+# consider manual pull request (set false to disable)
+autoCloseManualPr: false
+
+# Number of days of inactivity before an manual Pull Request becomes marked (autoCloseManualPr value should be true)
+daysUntilMark: 30
+
+# Number of days of inactivity before an Pull Request with the mark label is closed.
+daysUntilClose: 2
+
+#Pull Requests with these labels will be considered to be marked and closed in different time.(e.g ['bug','auto-pr']
+uniqLabels: []
+
+# Number of days of inactivity before an Pull Request with uniq label becomes marked
+daysUntilUniqLabelsMark: 5
+
+# Label to use when marking
+markLabel: wontfix
+
+# Comment to post when closing pr.
+closeComment: >
+  This pull request has been automatically closed because it has not had
+  recent activity.
