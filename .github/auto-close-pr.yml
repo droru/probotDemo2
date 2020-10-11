@@ -1,5 +1,5 @@
 # consider manual pull request (set false to disable)
-autoCloseManualPr: true
+autoCloseManualPr: false
 
 # Number of days of inactivity before an manual Pull Request becomes marked (autoCloseManualPr value should be true)
 daysUntilMark: 30
